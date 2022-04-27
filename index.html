@@ -35,7 +35,8 @@
             <img src="imgs/perfil.jpg" alt="Imagem de Perfil">
             <h1>Olá, Eu sou <span>Ismael Chaves</span></h1>
             <p>Desenvolvedor Web</p>
-            <input type="button" value="Download CV">
+            <a href="https://drive.google.com/file/d/1VYHT4xaGq7t_GEHlx2bb4lU2doVRMA5M/view?usp=sharing">
+                <input type="button" value="Download CV"></a>
         </div>
     </section>
 
@@ -123,10 +124,11 @@
     <section id="pagina-5">
         <div class="contact">
             <h1>Contato</h1>
-            <form>
+            <form action="https://formsubmit.co/ismaelchaves2001@outlook.com" method="POST">
                 <input name="name" type="text" class="feedback-input" placeholder="Insira seu Nome" />
                 <input name="email" type="text" class="feedback-input" placeholder="Insira seu E-mail" />
                 <textarea name="text" class="feedback-input" placeholder="Mensagem"></textarea>
+                <input type="hidden" name="_next" value="https://icode-chaves.github.io/Portifolio/">
                 <input type="submit" value="Enviar" />
             </form>
             <div class="redes-sociais">
