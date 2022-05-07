@@ -215,19 +215,23 @@ input[type="button"]:hover {
 #pagina-4 {
     background: #FFF;
     height: 100vh;
-}
-
-.projects h1 {
-    text-align: center;
-    padding: 4rem;
-    text-transform: uppercase;
-}
-
-.projetos{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.projects h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.projects p{
+    text-align: center;
+}
+
+.projetos{
+    display: inline;
 }
 
 .projetos img{
